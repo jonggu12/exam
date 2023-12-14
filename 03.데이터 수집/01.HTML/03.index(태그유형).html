@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--블록 레벨 요소-->
+    <h1>텍스트 양이 적어도</h1>
+    <p>그 다음 요소는 옆이 아닌 아래에 표시됩니다. </p>
+    <p>짠</p>
+    <p>한 <mark>글자</mark> 밖에 없다고 해도 마찬가지입니다. </p>
+
+    <!--인라인 레벨 요소-->
+    <strong>인라인 텍스트라 한줄을 독차지 하지 않고</strong>
+    <p><strong>두껍게 표시되는 것을 확인해보세요</strong></p>
+    
+    <p>p태그는 블록이라 한 줄을 독차지합니다.</p>
+    <strong>인라인 텍스트라 한 줄을 독차지 하지 않고</strong>
+    <strong>두껍게 표시되는 것을 확인해보세요. </strong>
+    <em>나는 기울어진 텍스트가 돼</em>
+    
+    <!--블록 레벨 컨테이너(<Div>)-->
+    <div>
+        <p>행복하고 즐거워요~</p>
+        <p>HTML 공부!</p>
+    </div>
+
+    <!--인라인 컨테이너(<span>)-->
+        <p>
+            예능 프로그램 즐겨 보시나요?
+            저는 <span sytle="color : blue;">골때리는 그녀들</span> 재미있게 보고 있습니다!
+        </p>
+
+        <div id="study">
+            <p>행복하고 즐거워요~</p>
+        </div>
+
+        <div>
+            <p class ="text content">행복하고 즐거워요~</p> <!--클래스 = 별명-->
+        </div>
+
+        <!--이미지 표현-->
+        <img src="./resource/dog.png" witdth = "100" height = "100">
+        <span>귀여운 강아지네요</span> <!-- span 특정 영역에서 스타일지정-->
+        <br>
+
+        <figure>
+            <img src="./resource/dog.png" witdth = "100" height = "100">
+            <figcaption>귀여운 강아지의 따봉</figcaption>
+        </figure>
+
+        <!--속성 링크-->
+        <h1>
+            네이버 홈페이지로 이동하려면
+            <a href="https://www.naver.com/">여기</a>
+            를 클릭
+        </h1>
+
+        <h1>두 링크의 차이를 비교해보세요</h1>
+
+        <a href="https://www.naver.com/" target="_self">
+            현재 탭에서 열기
+        </a>
+    
+        <br>
+
+        <a href="https://www.naver.com/" target="_blank">
+            새 탭에서 열기
+        </a>
+
+        <!--전화걸기 & 메일보내기-->
+        <hr>
+        <a href="tel:010-1234-5678">
+            전화걸기
+        </a>
+        <br>
+        <a href = "mailto:eansdrawer@naver.com">
+            메일 보내기
+        </a>
+
+</body>
+</html>

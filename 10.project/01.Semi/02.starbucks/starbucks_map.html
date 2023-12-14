@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e5925783658cb47bfbdaece45cac29d5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e5925783658cb47bfbdaece45cac29d5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e5925783658cb47bfbdaece45cac29d5 = L.map(
+                "map_e5925783658cb47bfbdaece45cac29d5",
+                {
+                    center: [37.5, 127.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_41f17354a19c823fd2c2a6ea44ef1915 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_41f17354a19c823fd2c2a6ea44ef1915.addTo(map_e5925783658cb47bfbdaece45cac29d5);
+    
+            var circle_marker_8badcbec546e777a458dfbd56adc308e = L.circleMarker(
+                [37.0, 127.0],
+                {"bubblingMouseEvents": true, "color": "\ube68\uac04\uc0c9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "\ube68\uac04\uc0c9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_e5925783658cb47bfbdaece45cac29d5);
+        
+    
+        var popup_a00cc665e1dc3e8f32ccd933e1057aeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3da17615cbb0d8cba900523d2687c25 = $(`<div id="html_a3da17615cbb0d8cba900523d2687c25" style="width: 100.0%; height: 100.0%;">경기 성남시: 25개</div>`)[0];
+                popup_a00cc665e1dc3e8f32ccd933e1057aeb.setContent(html_a3da17615cbb0d8cba900523d2687c25);
+            
+        
+
+        circle_marker_8badcbec546e777a458dfbd56adc308e.bindPopup(popup_a00cc665e1dc3e8f32ccd933e1057aeb)
+        ;
+
+        
+    
+    
+            var circle_marker_fc341bd5934b8c3416320018cecbce25 = L.circleMarker(
+                [37.0, 127.0],
+                {"bubblingMouseEvents": true, "color": "\uc8fc\ud669\uc0c9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "\uc8fc\ud669\uc0c9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_e5925783658cb47bfbdaece45cac29d5);
+        
+    
+        var popup_a7b8e8d72a74e0bcf8aaf6f218a824b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81d3280605838fe930f85db9a6bbe038 = $(`<div id="html_81d3280605838fe930f85db9a6bbe038" style="width: 100.0%; height: 100.0%;">경기 수원시: 18개</div>`)[0];
+                popup_a7b8e8d72a74e0bcf8aaf6f218a824b5.setContent(html_81d3280605838fe930f85db9a6bbe038);
+            
+        
+
+        circle_marker_fc341bd5934b8c3416320018cecbce25.bindPopup(popup_a7b8e8d72a74e0bcf8aaf6f218a824b5)
+        ;
+
+        
+    
+    
+            var circle_marker_f800fedc4709b5b4be8a7b2d83de8b79 = L.circleMarker(
+                [37.0, 127.0],
+                {"bubblingMouseEvents": true, "color": "\ub178\ub780\uc0c9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "\ub178\ub780\uc0c9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e5925783658cb47bfbdaece45cac29d5);
+        
+    
+        var popup_8c6913d3f53e3d7c5435d4a429bca127 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_609c919800d0ebc5710f64f46022aa56 = $(`<div id="html_609c919800d0ebc5710f64f46022aa56" style="width: 100.0%; height: 100.0%;">경기 용인시: 10개</div>`)[0];
+                popup_8c6913d3f53e3d7c5435d4a429bca127.setContent(html_609c919800d0ebc5710f64f46022aa56);
+            
+        
+
+        circle_marker_f800fedc4709b5b4be8a7b2d83de8b79.bindPopup(popup_8c6913d3f53e3d7c5435d4a429bca127)
+        ;
+
+        
+    
+    
+            var circle_marker_e249beba44d4052300e08af4aa85cf1b = L.circleMarker(
+                [37.0, 127.0],
+                {"bubblingMouseEvents": true, "color": "\ub178\ub780\uc0c9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "\ub178\ub780\uc0c9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e5925783658cb47bfbdaece45cac29d5);
+        
+    
+        var popup_c74d1eea17d8bcbb407585e78e2d87a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6c2376cf5acdd131119b8ad6d95d770 = $(`<div id="html_a6c2376cf5acdd131119b8ad6d95d770" style="width: 100.0%; height: 100.0%;">부산 사하구: 8개</div>`)[0];
+                popup_c74d1eea17d8bcbb407585e78e2d87a6.setContent(html_a6c2376cf5acdd131119b8ad6d95d770);
+            
+        
+
+        circle_marker_e249beba44d4052300e08af4aa85cf1b.bindPopup(popup_c74d1eea17d8bcbb407585e78e2d87a6)
+        ;
+
+        
+    
+    
+            var circle_marker_de2e6d9baa319206035cef05a6b11c42 = L.circleMarker(
+                [37.0, 127.0],
+                {"bubblingMouseEvents": true, "color": "\uc8fc\ud669\uc0c9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "\uc8fc\ud669\uc0c9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_e5925783658cb47bfbdaece45cac29d5);
+        
+    
+        var popup_dc70640e8c4f11abf645d4ef61fc9c22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bae60633524b0f624394dcfe415b204c = $(`<div id="html_bae60633524b0f624394dcfe415b204c" style="width: 100.0%; height: 100.0%;">부산 해운대구: 12개</div>`)[0];
+                popup_dc70640e8c4f11abf645d4ef61fc9c22.setContent(html_bae60633524b0f624394dcfe415b204c);
+            
+        
+
+        circle_marker_de2e6d9baa319206035cef05a6b11c42.bindPopup(popup_dc70640e8c4f11abf645d4ef61fc9c22)
+        ;
+
+        
+    
+    
+            var circle_marker_8d0a04447831560d9e519489f8e818d0 = L.circleMarker(
+                [37.0, 127.0],
+                {"bubblingMouseEvents": true, "color": "\ube68\uac04\uc0c9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "\ube68\uac04\uc0c9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_e5925783658cb47bfbdaece45cac29d5);
+        
+    
+        var popup_6e3b0c12003990c3580dae7992f45d2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6acef85216d862432c6fc9e443b5c4c8 = $(`<div id="html_6acef85216d862432c6fc9e443b5c4c8" style="width: 100.0%; height: 100.0%;">서울 강남구: 30개</div>`)[0];
+                popup_6e3b0c12003990c3580dae7992f45d2a.setContent(html_6acef85216d862432c6fc9e443b5c4c8);
+            
+        
+
+        circle_marker_8d0a04447831560d9e519489f8e818d0.bindPopup(popup_6e3b0c12003990c3580dae7992f45d2a)
+        ;
+
+        
+    
+    
+            var circle_marker_0d2d5492732ccb57ef1bfee87218f7b0 = L.circleMarker(
+                [37.0, 127.0],
+                {"bubblingMouseEvents": true, "color": "\uc8fc\ud669\uc0c9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "\uc8fc\ud669\uc0c9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_e5925783658cb47bfbdaece45cac29d5);
+        
+    
+        var popup_ab3b57a8d895b015db69a2e5723e69b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b785df71e5886d397173238ed048e282 = $(`<div id="html_b785df71e5886d397173238ed048e282" style="width: 100.0%; height: 100.0%;">서울 강서구: 20개</div>`)[0];
+                popup_ab3b57a8d895b015db69a2e5723e69b3.setContent(html_b785df71e5886d397173238ed048e282);
+            
+        
+
+        circle_marker_0d2d5492732ccb57ef1bfee87218f7b0.bindPopup(popup_ab3b57a8d895b015db69a2e5723e69b3)
+        ;
+
+        
+    
+    
+            var circle_marker_9f72a758d71c8d3faf784f8ed79a95b4 = L.circleMarker(
+                [37.0, 127.0],
+                {"bubblingMouseEvents": true, "color": "\uc8fc\ud669\uc0c9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "\uc8fc\ud669\uc0c9", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_e5925783658cb47bfbdaece45cac29d5);
+        
+    
+        var popup_7178bcfcc30e3155860d7a2b27fa9728 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3ed3089182629577fdc25617d4ef924 = $(`<div id="html_f3ed3089182629577fdc25617d4ef924" style="width: 100.0%; height: 100.0%;">서울 송파구: 15개</div>`)[0];
+                popup_7178bcfcc30e3155860d7a2b27fa9728.setContent(html_f3ed3089182629577fdc25617d4ef924);
+            
+        
+
+        circle_marker_9f72a758d71c8d3faf784f8ed79a95b4.bindPopup(popup_7178bcfcc30e3155860d7a2b27fa9728)
+        ;
+
+        
+    
+</script>
+</html>

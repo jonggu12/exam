@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>강아지</li>
+        <li>고양이</li>
+        <li>거북이</li>
+        <li>햄스터</li>
+    </ul>
+    <ol>
+        <li>스타벅스</li>
+        <li>커피빈</li>
+        <li>파스쿠찌</li>
+        <li>이디야</li>
+    </ol>
+
+    <ol start ="3" type="A">       <!--A,a,1,i,l,(일반 다른 알파벳)-->
+        <li>유체역학</li>
+        <li>전자회로</li>
+        <li>동역학</li>
+        <li>마이크로프로세서</li>
+        
+
+    </ol>
+
+    <!--표 만들기-->
+    <!--
+        <table> : 하나의 표를 나타내는 태그
+        <tr> : 표 안에서 하나의 행을 나타내는 태그
+        <th> : 행 안에서 제목에 해당하는 셀을 나타내는 태그
+        <td> : 행 안에서 항목에 해당하는 셀을 나태는 태그
+    -->
+
+    <table border="1">
+        <!--표에 제목 추가하기-->
+        <caption>
+            <strong>국가대표 선수 명단</strong>
+            <br>
+            남자 마라톤
+        </caption>
+            <tr> <!-- 하나의 행을 나타냄-->
+                <th>한국 선수</th>
+                <th>일본 선수</th>
+                <th>미국 선수</th>
+            </tr>
+            <tr>
+                <th>김철수</th>
+                <th>오오다</th>
+                <th>제임스</th>
+            </tr>
+            <tr>
+                <th>홍길동</th>
+                <th>김기백</th>
+                <th>이상아</th>
+            </tr>
+    </table>
+
+        <figure>
+            <figcaption>
+                <strong>국가대표 선수 명단</strong>
+            </figcaption>
+            <table border = "1">
+            <tr>
+                 <!-- 하나의 행을 나타냄-->
+                <th>한국 선수</th>
+                <th>일본 선수</th>
+                <th>미국 선수</th>
+            </tr>
+            <tr>
+                <td>김철수</td>
+                <td>오오다</td>
+                <td>제임스</td>   
+            </tr> 
+        </table>
+
+
+
+
+
+        </table>
+    </figure>
+    
+    <table border = "1">
+        <thead>
+            <tr>
+                <th>한국 선수</th>
+                <th>일본 선수</th>
+                <th>미국 선수</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>김철수</td>
+                <td>오오다</td>
+                <td>제임스</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>세계 랭킹 5위</td>
+                <td>세계 랭킹 8위</td>
+                <td>세계 랭킹 2위</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
